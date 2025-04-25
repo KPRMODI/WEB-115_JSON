@@ -5,8 +5,7 @@ let course = document.getElementById("course")
 let sectionname = document.getElementById("sectionname")
 let role = document.getElementById("role")
 
-let person = {
-}
+let person = {}
 
 submit.addEventListener("click", () =>  {
     person.firstname = firstname.value
@@ -17,12 +16,11 @@ submit.addEventListener("click", () =>  {
 
     console.log("Person Object: ")
 
-    console.log("")
-
     console.log(person)
 
-    console.log("JSON versiob=n")
+    console.log("")
+
+    console.log("JSON format: ")
 
     let x = JSON.stringify(person)
-    console.log(x)
-})
+    console.log(x) })
